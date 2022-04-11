@@ -1,11 +1,6 @@
-using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using System.Net.Http;
-using WorldBank;
 using Moq;
-using System.Threading.Tasks;
-using Moq.Protected;
-using System.Threading;
 
 namespace WorldBank.UnitTests
 {
@@ -13,7 +8,6 @@ namespace WorldBank.UnitTests
     {
         private WorldBankApi worldBankAPI;
         private HttpClient httpClient;
-        static string uri = "Test";
 
         [SetUp]
         public void Setup()
