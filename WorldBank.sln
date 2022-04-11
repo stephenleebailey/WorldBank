@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldBank", "WorldBank\WorldBank.csproj", "{EFA2C94E-BBD4-4B6B-BB50-A51ED6278738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldBank.UnitTests", "WorldBank.UnitTests\WorldBank.UnitTests.csproj", "{7856370F-EE06-48E1-AE94-F81D26BB192C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA2C94E-BBD4-4B6B-BB50-A51ED6278738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA2C94E-BBD4-4B6B-BB50-A51ED6278738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA2C94E-BBD4-4B6B-BB50-A51ED6278738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA2C94E-BBD4-4B6B-BB50-A51ED6278738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7856370F-EE06-48E1-AE94-F81D26BB192C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7856370F-EE06-48E1-AE94-F81D26BB192C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7856370F-EE06-48E1-AE94-F81D26BB192C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7856370F-EE06-48E1-AE94-F81D26BB192C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8490CFD1-C5D5-4CD7-943A-2514D563C270}
+	EndGlobalSection
+EndGlobal
